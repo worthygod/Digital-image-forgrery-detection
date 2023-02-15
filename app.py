@@ -156,8 +156,7 @@ else :
     st.write("[link](https://drive.google.com/file/d/1tC5cO1_26X2cQTeCrkV2hI9F41fig_6c/view?usp=sharing)")
     st.text("")
     st.text("")
-    st.markdown("OOPS !!!!!!!!!! You are not ready with some images 😬. Don't worry i have some images for you click on the below button and it will predict whether random image is pristine or forged from a set of images. 😎")
-    if st.button('Generate a random image') :
+    
         ran_num=np.random.randint(0,len(ran_imageid))
         img_static_path=str(ran_imageid[ran_num])+'.jpg'
         temp_img=Image.open(img_static_path)
