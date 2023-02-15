@@ -125,7 +125,6 @@ def predict_region(img,model) :
 
 st.title("Image Forgery Detection (Copy-Move Forgery Detection)")
 st.header("Upload a image to get whether image is forged or pristine")
-st.markdown(" Note :- Please use low quality images as dataset on which this model is trained on consist of low quality images. Thankyou")
 # To View Uploaded Image
 image_file = st.file_uploader("Upload Images", type=["png","jpg"])
 # You don't have handy image 
