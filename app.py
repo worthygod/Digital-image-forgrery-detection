@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug  9 13:18:31 2022
+Created on Thu feb  9 13:18:31 2023
 
-@author: shilp
+@author: aniket shinde
+         kavita rathod
+         nishchal tayade
 """
 
 
@@ -173,6 +175,6 @@ else :
         else :
             st.title("This is a fake image")
             st.image(predi)
-            st.write("##### NOTE : Black region is part of image where original image may be tempered Please have a close look on these regions . Thankyou ❤️") 
+            st.write("##### NOTE : Black region is part of image where original image may be tempered Please have a close look on these regions . Thankyou ") 
 
     
