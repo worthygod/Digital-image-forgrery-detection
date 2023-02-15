@@ -156,7 +156,6 @@ else :
     st.write("[link](https://drive.google.com/file/d/1tC5cO1_26X2cQTeCrkV2hI9F41fig_6c/view?usp=sharing)")
     st.text("")
     st.text("")
-        predi=predict_region(img_static_path,loaded_model)  
         ela_img,pred=predict(img_static_path,model)
         st.text("ELA image for this image")
         st.image(ela_img)
