@@ -156,10 +156,10 @@ else :
     st.write("[link](https://drive.google.com/file/d/1tC5cO1_26X2cQTeCrkV2hI9F41fig_6c/view?usp=sharing)")
     st.text("")
     st.text("")
-        ela_img,pred=predict(img_static_path,model)
-        st.text("ELA image for this image")
-        st.image(ela_img)
-        pred=pred[0]
+      #  ela_img,pred=predict(img_static_path,model)
+       # st.text("ELA image for this image")
+       # st.image(ela_img)
+        #pred=pred[0]
         st.markdown("Probability of input image to be real is " + str(pred[0]))
         st.markdown("Probability of input image to be fake is " + str(1-pred[0]))
         if pred >= 0.5 :
