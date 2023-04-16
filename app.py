@@ -151,9 +151,9 @@ else :
     st.text("")
     st.text("")
     st.text("You can download some sample images by clicking on the below links :")
-    st.write("[link](https://drive.google.com/file/d/1pGge7SoSe3g89N1dwDnGXpAOVxw4RJac/view?usp=sharing)")
-    st.write("[link](https://drive.google.com/file/d/1bsgEQcLXjxOcdBMFNP7NRmOFhauPpL4K/view?usp=sharing)")
-    st.write("[link](https://drive.google.com/file/d/1tC5cO1_26X2cQTeCrkV2hI9F41fig_6c/view?usp=sharing)")
+    st.write("[link](https://drive.google.com/file/d/187K3FpyiTTcxDq8gFeE_U2E370BRbmNp/view?usp=share_link)")
+    st.write("[link](https://drive.google.com/file/d/1K1UD0YWfp1-dUmIrbOayAQIhKX7HKvqw/view?usp=share_link)")
+    st.write("[link](https://drive.google.com/file/d/14EafkfByi9XZ4tLJZ4O3JfQv1bWJmnYE/view?usp=share_link)")
     st.text("")
     st.text("")
       
