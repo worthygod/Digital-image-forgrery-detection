@@ -123,7 +123,7 @@ def predict_region(img,model) :
 
       
 
-st.title("Image Forgery Detection (Copy-Move Forgery Detection)")
+st.title("Image Forgery Detection")
 st.header("Upload a image to get whether image is forged or pristine")
 # To View Uploaded Image
 image_file = st.file_uploader("Upload Images", type=["png","jpg"])
